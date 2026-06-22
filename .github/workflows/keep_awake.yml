@@ -4,7 +4,7 @@ on:
   schedule:
     # This runs the code every 6 hours
     # - cron: "0 */6 * * *"
-    - cron: "0 * * * *"
+    - cron: "0 */6 * * *"
   # This lets you run it manually to test it
   workflow_dispatch:
 
